@@ -1,0 +1,17 @@
+.card{
+    margin-bottom: 0.5em;
+    border-radius: 0.75rem;
+}
+
+a {
+    color: rgb(59, 59, 59);;
+}
+ a:hover{
+     color: #28a745;
+     text-decoration: none;
+ }
+
+ .card:hover{
+    transform: scale(1.01);
+ box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}

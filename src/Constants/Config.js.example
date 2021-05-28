@@ -1,0 +1,6 @@
+const Config =
+{
+    API_KEY: "Your-API-Key-Here"
+}
+
+export default Config;
