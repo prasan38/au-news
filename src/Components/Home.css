@@ -1,4 +1,10 @@
+.navbar-nav{
+    margin-left: 28rem;
+}
 
+nav form.form-inline{
+    margin-left: 25rem;
+}
 
 .news-section{
     margin: auto;

@@ -7,7 +7,7 @@ import CONFIG from '../Constants/Config'
 import Loader from "react-loader-spinner";
 import Footer from './Footer'
 
-function Home() {
+function TopStories() {
 
     const [news, setNews] = useState([])
     const [showLoading, setShowLoading] = useState(false);
@@ -41,7 +41,7 @@ function Home() {
             <Navbar searchNews={searchNews} />
             <hr />
             <div className="col-md-6 news-section">
-                <h2>Home</h2>
+                <h2>Top Headlines</h2>
                 <hr />
                 {showLoading ?
                     <Loader
@@ -62,4 +62,4 @@ function Home() {
     )
 }
 
-export default Home
+export default TopStories
